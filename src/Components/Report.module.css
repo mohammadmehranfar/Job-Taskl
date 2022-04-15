@@ -1,0 +1,26 @@
+.container{
+    height: 32px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.splitter{
+    width: 2px;
+    height: 24px;
+    background: #A9ADC6;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.title{
+    flex: 75%;
+    text-align: center;
+    color: #000;
+}
+.value{
+    flex: 25%;
+    text-align: center;
+    color: #000;
+}
