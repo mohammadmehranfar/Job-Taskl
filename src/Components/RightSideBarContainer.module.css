@@ -1,6 +1,45 @@
-.rightContainer{
+
+.container{
+    display: flex;
+    flex-direction: column;
     width: 90%;
     height: 93%;
     position: relative;
     margin: auto;
+}
+.logos{
+    flex: 20%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+    margin: 8px;
+}
+.add{
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+}
+.refresh{
+    width: 15px;
+    height: 15px;
+    margin:8px 0;
+}
+.charts{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 8px;
+}
+.addButton{
+    width: 60px;
+    height: 60px;
+    background: #3E50B4;
+    text-align: center;
+    margin : 30px auto;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.addButton img{
+    padding: 8px;
 }

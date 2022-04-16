@@ -13,9 +13,7 @@ function App() {
            <div className={styles.rightBody}>
             <div className={styles.bodyContainer}>
               <div className={styles.rightSideBar}>
-                <div className={styles.rightContainer}>
-                  <RightSideBarContainer/>
-                </div>
+                <RightSideBarContainer/>
               </div>
               <div className={styles.leftSideBar}>
                 <LeftSideBarContainer/>
